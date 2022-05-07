@@ -1,1 +1,26 @@
-
+<?xml version="1.0" encoding="utf-8"?> 
+<br_title>	
+	<Title>Pop-up_window_does_not_dissappear_until_the_date_is_not_changed</Title>
+	<Type>Bug</Type>
+	<Priority>Low</Priority>
+	<Status>Blocked</Status>
+	<Author_Created_By>Vasily_Vasilkov</Author_Created_By>
+	<Severity></Severity>
+	<Build></Build>
+	<Environment></Environment>
+</br_title> 
+ 
+<br_description>
+<Steps_to_reproduce>  
+	 <Step_1>Select_any_dish</Step_1>
+	 <Step_2>Go_to_the_basket</Step_2>
+	 <Step_3>Select_a_date_next_to_the_last_delivery_date_in_the_menu<Step_3>
+	 <Step_4>After_the_pop-up_Delivery_up_to_14_11_appears,click_on_the_Change_a_date_ button</Step_4>
+	 <Step_5>Look_at_the_pop-up</Step_5>
+</Steps_to_reproduce>
+</br_description>
+ 
+<br_result>
+	<Expected_result>The_pop-up_Delivery_up_to_14_11_does_not_appear</Expected_result>
+	<Actual_result>The_pop-up_remains_until_the_date_is_not_chaged_to_the_suitable_one</Actual_result>
+</br_result>
